@@ -1,0 +1,47 @@
+body {
+  padding: 72px 0 0 190px;
+}
+
+.app-container {
+  display: flex;
+}
+
+.container {
+  padding: 0px;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 190px;
+  z-index: 1;
+}
+
+.post-card {
+  margin: 20px 50px;
+}
+
+.hashtag {
+  margin: 0px 3px;
+}
+
+.reaction {
+  margin: 15px 0 0 0;
+}
+
+.create-post {
+  margin: 50px 10% 0 10%;
+}
+
+header {
+
+  /* width: 100%; */
+  width:
+    calc(100% - 190px);
+  position: fixed;
+  top: 0px;
+  left: 190px;
+  z-index: 1;
+}
